@@ -225,6 +225,8 @@ footer img{
   }
   .projects a{
     grid-column: span 4;
+    /* I wanna say 'display:block' because currently the 'display:flex' and that means these things sit next to each other 
+    if I display it as block it's going to remove that and these should sit underneath */
     display: block;
     margin: 20px 0;
   }
@@ -233,6 +235,7 @@ footer img{
   }
   .projects a *{
     margin: 10px;
+    /* ??? */
     max-width: 60%;
     margin: 10px 20%;
   }
