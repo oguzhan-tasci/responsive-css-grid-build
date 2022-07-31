@@ -17,8 +17,9 @@ li{
 /* base styles */
 body{
   background: var(--secondary);
+  /* The reason I'm doing that is because later on when we use this image over on the right up here I'm going to push it off the sreen I'dont want a user to be able to scroll and view that image */
   overflow-x: hidden;
-}
+}       
 .button{
   background: none;
   border: 2px solid var(--primary);
