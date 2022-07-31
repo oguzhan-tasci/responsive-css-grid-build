@@ -103,11 +103,17 @@ h4{
   grid-template-columns: repeat(12, 1fr);
   gap: 10px;
 }
+ /* Bu yorumu yaparsak , herbir resim sadece 1 yer kaplar (1 / 12) */
+
+/* .projects img {
+    width:100%;
+} */
 .projects a{
   text-align: center;
   background: grey;
   padding: 20px;
 }
+/* Belirtilen rakamdaki div'leri istediğimiz yere sabitleyebiliyoruz.*/
 .projects a:nth-child(1){
   grid-column:  2/6;
   grid-row: 1;
